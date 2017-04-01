@@ -1,0 +1,258 @@
+* {
+       box-sizing: border-box;
+}
+
+#expo70{
+	height: 50%; 
+	width: 50%;
+	float: right;
+	padding-right: 5%;
+}
+
+.picture{
+	height: 40%; 
+	width: 40%;
+	float: right;
+	padding-right: 5%;
+}
+
+#camera2D,#camera3D{
+	height: 45%; 
+	width: 45%;
+}
+
+#imaxLayout{
+	height: 60%; 
+	width: 80%;
+	margin: auto;
+	padding-left: 5%;
+}
+
+#speakers{
+	margin: auto;
+	height: 40%; 
+	width: 40%;
+}
+
+#screenComparison{
+	height: 50%; 
+	width: 50%;
+	padding-left: 15%;
+
+}
+
+#imaxLogo{
+	 width: 40%; 
+	 height: 40%;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 3%;
+}
+
+main article header h2{
+	text-align: left;
+}
+
+figure img{
+	width: 80%; 
+	height: 80%;
+}
+
+
+
+body{
+	background-color: #E0FFFF;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+ul.topnav li{
+    
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-right: 3px solid grey;
+    float: left;
+
+}
+
+
+
+
+ul.topnav li a {
+	text-align: center;
+    padding: 8px;
+   
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.active{
+	 color: black;
+	background-color: lightblue;
+   
+}
+
+h1, h2{
+	text-align: center;
+}
+
+figcaption{
+	font-style: italic;
+}
+
+main article aside p {
+	color:black;
+    transition:all 1s ease;
+
+}
+
+main article aside p:target {
+    color:red;
+    font-size:40px
+
+}
+
+.menu {
+	width: 100%;
+	height: 20px;
+	background-color:#cccccc;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+
+	
+    top: 0px;
+    left: 0px;
+	color: #999999;
+	padding: 2px;
+	}
+
+.menu a{
+	text-decoration: none;
+	padding-right: 15px;
+	border-right: 2px solid black;
+	color: purple;
+}
+
+.boxed  {
+	background-color:yellow;
+	color:black;
+	padding:20px;
+	width:500px;
+	height:80px;
+	  -webkit-transition: width 2s, height 2s, transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+	border: 3px solid green ;
+}
+
+
+.boxed:hover{
+    height: 200px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+
+    visibility: visible;
+}
+
+
+
+#basicInfo, #imaxVariations, #imaxUses, #references, #ourTeam{
+	margin: auto;
+
+	width: 75%;
+	height: 75%;
+    background-color: lightblue;
+
+	transition:all 1s ease;
+	color: black;
+
+	margin-top: 3%;
+}
+
+#year1968, #year1974-1986, #year1969-1973,
+#projection, #audio, #theatre, #camera, #film{
+	width: 75%;
+	height: 75%;
+    background-color: lightblue;
+	position: absolute;
+
+	left: auto;
+	margin-left: -700px;
+	transition:all 1s ease;
+	color: black;
+	visibility: hidden;
+
+	padding-bottom: 20%;
+
+}
+
+#year1968 h2, #year1969-1973 h2, #year1974-1986 h2,
+#projection h2, #audio h2, #theatre h2, #camera h2, #film h2{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+	
+#year1968:target, #year1969-1973:target, #year1974-1986:target, 
+#projection:target, #audio:target, #theatre:target, #camera:target, #film:target {
+	margin-left: 10%;
+	z-index: 1; 
+	position:relative;
+	visibility: visible;
+}
+
+#imax3DLogo{
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    ul.topnav li.right, ul.topnav li, .about_menu {
+    	float: none; 
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, ul.topnav li, .about_menu  {
+    	float: none; 
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    ul.topnav li.right, ul.topnav li, .about_menu {
+    	float: none; 
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 150px){
+    ul.topnav li.right, ul.topnav li, .about_menu {
+    	float: none; 
+    	width: 100%;
+    }
+}
