@@ -2,6 +2,25 @@
        box-sizing: border-box;
 }
 
+#vrPod{
+	height: 50%;
+	width: 50%;
+	float: left;
+	margin-left: 5%;
+}
+
+#starVRHeadset{
+	height: 40%;
+	width: 40%;
+	float: left;
+}
+
+#vrVest{
+	height: 10%;
+	width: 25%;
+	float: left;
+}
+
 #expo70{
 	height: 50%; 
 	width: 50%;
@@ -16,16 +35,24 @@
 	padding-right: 5%;
 }
 
+.imaxVarPic{
+	height: 40%; 
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
 #camera2D,#camera3D{
 	height: 45%; 
 	width: 45%;
 }
 
-#imaxLayout{
+#imaxLayout, #imaxTheatrePhoto{
 	height: 60%; 
 	width: 80%;
 	margin: auto;
 	padding-left: 5%;
+	padding-bottom: 2%;
 }
 
 #speakers{
@@ -171,14 +198,40 @@ main article aside p:target {
     visibility: visible;
 }
 
+#imaxVariations{
+	margin: auto;
 
+	width: 75%;
+	height: 100%;
+    background-color: lightblue;
 
-#basicInfo, #imaxVariations, #imaxUses, #references, #ourTeam{
+	transition:all 1s ease;
+	color: black;
+
+	padding-bottom: 25%;
+}
+
+#basicInfo,  #imaxUses, #references, #ourTeam, #imaxFilms, #imaxFuture{
 	margin: auto;
 
 	width: 75%;
 	height: 75%;
     background-color: lightblue;
+
+	transition:all 1s ease;
+	color: black;
+
+	margin-top: 3%;
+}
+
+#imaxFuture{
+	margin: auto;
+
+	width: 75%;
+	height: 200%;
+    background-color: lightblue;
+
+    padding-bottom: 25%;
 
 	transition:all 1s ease;
 	color: black;
